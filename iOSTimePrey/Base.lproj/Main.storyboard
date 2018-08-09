@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOSTimePrey" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yura | Slava | Nikita | Eugene | Sasha A | Sasha B | Lena | Andry | Igor | Sergey" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4r1-h4-eoh">
+                                <rect key="frame" x="20" y="76" width="627" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Yura Slava] [Nikita Eugene]  [Sasha A Sasha B] [Lena Andry] [Igor Sergey]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G02-Yi-t90">
+                                <rect key="frame" x="0.0" y="122" width="667" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Yura Eugene]  [Sasha A Andry] [Igor]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCI-ca-KP4">
+                                <rect key="frame" x="20" y="165" width="627" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Yura Andry] [Igor]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHI-48-ma2">
+                                <rect key="frame" x="20" y="203" width="627" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Yura Igor]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmw-to-dBt">
+                                <rect key="frame" x="20" y="249" width="627" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Yura]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVd-Jy-D8q">
+                                <rect key="frame" x="20" y="295" width="627" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uW-pY-dxI">
+                                <rect key="frame" x="20" y="20" width="627" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Search of prey"/>
+                                <connections>
+                                    <action selector="searchOfPreyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AUF-75-Uy3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vVd-Jy-D8q" secondAttribute="trailing" constant="20" id="2xi-SK-9DZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4r1-h4-eoh" secondAttribute="trailing" constant="20" id="58m-AJ-QAd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G02-Yi-t90" secondAttribute="trailing" id="7rH-qp-iTr"/>
+                            <constraint firstItem="FCI-ca-KP4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="KKt-wv-W0a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3uW-pY-dxI" secondAttribute="trailing" constant="20" id="KQR-nl-kWa"/>
+                            <constraint firstItem="vVd-Jy-D8q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="MTq-rN-g1g"/>
+                            <constraint firstItem="vVd-Jy-D8q" firstAttribute="top" secondItem="wmw-to-dBt" secondAttribute="bottom" constant="25" id="Sgf-f8-ZnD"/>
+                            <constraint firstItem="OHI-48-ma2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="XAa-rB-JYQ"/>
+                            <constraint firstItem="wmw-to-dBt" firstAttribute="top" secondItem="OHI-48-ma2" secondAttribute="bottom" constant="25" id="Xyw-GO-6vg"/>
+                            <constraint firstItem="G02-Yi-t90" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hqi-pi-ulp"/>
+                            <constraint firstItem="G02-Yi-t90" firstAttribute="top" secondItem="4r1-h4-eoh" secondAttribute="bottom" constant="25" id="i6Q-W2-CHo"/>
+                            <constraint firstItem="4r1-h4-eoh" firstAttribute="top" secondItem="3uW-pY-dxI" secondAttribute="bottom" constant="20" id="kEt-vx-QTR"/>
+                            <constraint firstItem="3uW-pY-dxI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lDN-kY-aFs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FCI-ca-KP4" secondAttribute="trailing" constant="20" id="llR-Ta-07C"/>
+                            <constraint firstItem="4r1-h4-eoh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mXb-Qe-q3r"/>
+                            <constraint firstItem="wmw-to-dBt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="n3J-bZ-Syl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OHI-48-ma2" secondAttribute="trailing" constant="20" id="q1I-jp-luR"/>
+                            <constraint firstItem="OHI-48-ma2" firstAttribute="top" secondItem="FCI-ca-KP4" secondAttribute="bottom" constant="20" id="qXI-5F-I61"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wmw-to-dBt" secondAttribute="trailing" constant="20" id="qon-2n-Aom"/>
+                            <constraint firstItem="FCI-ca-KP4" firstAttribute="top" secondItem="G02-Yi-t90" secondAttribute="bottom" constant="25" id="tDU-99-Mqs"/>
+                            <constraint firstItem="3uW-pY-dxI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="zPo-TY-3PC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="arrayOfPreysLabel" destination="4r1-h4-eoh" id="X9R-0b-uPr"/>
+                        <outlet property="chunkedUsersLabel" destination="G02-Yi-t90" id="Xb3-cc-Xld"/>
+                        <outlet property="fourUsersLabel" destination="wmw-to-dBt" id="G6Z-Sw-i6T"/>
+                        <outlet property="preyLabel" destination="vVd-Jy-D8q" id="M4U-fT-rd0"/>
+                        <outlet property="secondUsersLabel" destination="FCI-ca-KP4" id="W5q-gv-rSc"/>
+                        <outlet property="thirdUsersLabel" destination="OHI-48-ma2" id="Ba9-Ye-g1f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-35" y="-34"/>
+        </scene>
+    </scenes>
+</document>
